@@ -33,6 +33,5 @@
 from . rostime import Time, Duration, TVal
 from . message import Message, SerializationError, DeserializationError, MessageException, struct_I
 
-__all__ = [
-    'Time', 'Duration', 'TVal',
-    'Message', 'SerializationError', 'DeserializationError', 'MessageException', 'struct_I']
+__all__ = ['Time', 'Duration', 'TVal',
+        'Message', 'SerializationError', 'DeserializationError', 'MessageException', 'struct_I']
